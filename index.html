@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <!-- hero image -->
+    <div class="hero"></div>
+    <!-- container for the todo -->
+    <main class="todo">
+      <!-- top of container -->
+      <div class="todo-head">
+        <h2 class="title">Todo</h2>
+        <div class="todo-image" id="img-toogle">
+        <img src="./images/icon-sun.svg" alt="icon-sun" id="img">
+        </div>
+      </div>
+      <!-- add input -->
+      <div class="form">
+        <div class="circle"></div>
+        <input type="text" placeholder="Create a new todo...">
+      </div>
+      <!-- todo list -->
+      <div class="todo-list">
+        <ul>
+          <!-- list start -->
+          <!-- <li>
+             <div class="bullet">
+            </div> 
+            <p class="text">Complete online javascript course</p>
+            <div class="delete">
+              <img src="./images/icon-cross.svg" alt="cross-icon">
+            </div>
+          </li>  -->
+          <!-- list end -->
+        </ul>
+        <!-- bottom -->
+        <div class="todo-bottom">
+          <p class="items" id="item">0 item left</p>
+          <div class="choice mobile-choice">
+            <p id="all">All</p>
+            <p id="active">Active</p>
+            <p id="complete">Completed</p>
+          </div>
+          <p id="clear">Clear Completed</p>
+        </div>
+      </div>
+      <!-- todo drag -->
+      <h4>Drag and drop to reorder list</h4>
+      
+      
+    </main>
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tridwan</a></p>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
